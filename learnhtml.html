@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tag learning</title>
+</head>
+<body>
+   <!--heading tags-->
+   <h1>Hello</h1>
+   <h2>Hello</h2>
+   <h3>Hello</h3>
+   <h4>Hello</h4>
+   <h5>Hello</h5>
+   <h6>Hello</h6>
+   <!--paragraph tag different tags-->
+   <p>pragraph tag</p>
+   <pre>lyrics tag</pre>
+   <p>Lorem, ipsum <span>Span tag</span> dolor sit amet <mark>Mark tag</mark> consectetur adipisicing elit. Consequuntur 
+      sapiente laboriosam excepturi<u>Unterline tag</u> itaque ullam sed corporis <i>Italic tag</i> eaque perferendis aperiam debitis quae,
+       illo ad, quaerat, possimus l<em>Italic style but system reading</em> Provident rerum expedita aliquam eveniet magnam possimus, 
+       illo quasi vitae aspernatur, <b>Bold tag</b>totam saepe nulla, temporibus iste animi eum. Qui suscipit cum possimus
+       voluptates excepturi quis placeat H<sub>2</sub>o .incidunt assumenda totam perspiciatis, tenetur repellat iure 
+       doloribus odio facere labore adipisci a<sup>2</sup> sapiente ipsum! Modi voluptatem dolorum cumque aut, 
+       inventore est ratione repudiandae mollitia quod magnam earum totam corrupti beatae veritatis
+       ex ullam cupiditate enim, temporibus fugit pariatur vel, libero exercitationem perferendis
+       quaerat! Itaque hic ea enim labore!</p>
+   <!--form tags-->
+   <form action="">
+      <input type="text" name="name" placeholder="Enter your name">
+      <label for="">User name</label>
+      <button>login</button>
+       <hr>
+      <!--input types-->
+      <input type="text" minlength="6"><br>
+      <input type="password" maxlength="4"><br>
+      <input type="date"><br>
+      <input type="checkbox"><br>
+
+      <!--radio button-->
+      <input type="radio" value="male" name="genter">
+      <label for="">Male</label>
+      <input type="radio" value="female" name="genter">
+      <label for="">FeMale</label>
+      <input type="radio" value="others" name="genter">
+      <label for="">Others</label>
+      <br>
+      <!--select tag-->
+      <label for="">fruits name</label>
+      <select>
+         <option value="mango">Mango</option>
+         <option value="apple">Apple</option>
+         <option value="banana">Banana</option>
+         <option value="peach">Peach</option>
+         <option value="wotermelon">wotermelon</option>
+        
+      </select><br>
+
+      <label for="">comment</label>
+      <textarea name="comment" id="" rows="5" cols="25"></textarea>
+      <br> 
+      <label for="">file:</label>
+      <input type="file">
+      
+      <br>
+      <input type="datetime-local"><br>
+      <input type="month"><br>
+      <input type="week"><br>
+      <input type="email"><br>
+      <input type="time"><br>
+      <input type="tel"><br>
+
+      <input type="tel" id="phone" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10"><br>
+      
+      <input type="reset"><br>
+      <input type="range"><br>
+      <input type="color"><br>
+      <input type="time"><br>
+      <input type="number"><br>
+
+   </form>
+   <!--images types-->
+   <a href="https://www.google.com/search?sca_esv=a5295d27d6bcdf79&sca_upv=1&rlz=1C1YTUH_enIN974IN974&q=images&udm=2&fbs=AEQNm0B8dVdIWR07uWWlg1TdKnNtA1cwMugrQsIKmAo5AEZHWRFlUeGLxYlhagMfUatSvHu3MSamP9Qd2SfjyZyVIdPFrZFmdorP0BQX-5QUvERZ7CgntLysKxPYR85LNkkQ-ODVQlzCBgHDwYGwBEtb1wyzIiqYOAGOFOhRLG73H-MUdJY1ZFjTgiSsk2gQgTHDHU_Mnn5ewYy4nGfZAENFgsXyYdMtYQ&sa=X&ved=2ahUKEwjXj4m63IeHAxWiwjgGHXylA_sQtKgLegQIGxAB&biw=1920&bih=953&dpr=1#vhid=gYk_u3Jk6wcmUM&vssid=mosaic">
+      <img src="colorful-design-with-spiral-design_188544-9588.avif" alt="renbo color wallpaper"></a>
+   <video src=""></video>
+   <audio controls autoplay muted loop src=""></audio>
+      
+   <a href="https://www.w3schools.com/html/html_form_input_types.asp">W3 school web site</a>
+
+   <!--List tags-->
+   <ol>
+      <li>list1</li>
+      <li>list2</li>
+      <li>list3</li>
+   </ol>
+   <ul>
+      <li>list1</li>
+      <li>list2</li>
+      <li>list3</li>
+   </ul>
+   <dl>
+      <dt>list</dt>
+      <dd>list1</dd>
+      <dd>list2</dd>
+      <dd>list3</dd>
+   </dl>
+    
+    <!--tabel tags-->
+    <table border="1">
+      <tr><th>subjects</th><th>marks</th></tr>
+      <tr><td>tamil</td><td>50</td></tr>
+      <tr><td>english</td><td>80</td></tr>
+      <tr><td>maths</td><td>95</td></tr>
+      <tr><td>science</td><td>67</td></tr>
+
+    </table>
+ 
+
+    
+
+
+
+
+
+    <button onclick="changeWords()" style="color: rebeccapurple; font-size: 16px;">change me</button>
+    <p id="demo">hello world</p>
+  
+
+    <script>
+      function changeWords(){
+          document.getElementById("demo").innerHTML="javascript!"
+      }
+   
+    </script>
+
+</body>
+</html>
