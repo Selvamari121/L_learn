@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Login Page</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h2>Login</h2>
-        <form action="">
-           <div class="form-group">
-            <label for="">User name:</label>
-            <input type="text">
-           </div>
-           <div class="form-group">
-            <label for="">Password:</label>
-            <input type="password">
-           </div>
-           <p><a href="#">Forget Password</a> / <a href="">Create Account</a> </p>
-           <button>Login</button>
-        </form>
-    </div>
+   <div class="container">
+      <form action="">
+         <h1>Temperature convertion</h1>
+        <div class="text">
+         <input id="textbox" type="number" value="0"><br>
+
+        </div>
+         <input type="radio" name="unit" id="fahrenheit">
+         <label for="fahrenheit">Celsius ➡ Fahrenheit</label><br>
+
+         <input type="radio" name="unit" id="celsius">
+         <label for="celsius">Fahrenheit ➡ Celsius</label><br>
+         <button type="submit" onclick="convert()">Convert</button><br>
+         <p id="result">Select a unit</p>   <!--Select a unit-->
+
+
+  <script src="script.js"></script>
+      </form>
+   </div>
+
 </body>
 </html>
