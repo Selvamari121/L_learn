@@ -3,29 +3,80 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <title>Document</title>
+   <title>Dice Game</title>
+   <link rel="stylesheet" href="dice.css">
 </head>
 <body>
-   <div class="container">
-      <form action="">
-         <h1>Temperature convertion</h1>
-        <div class="text">
-         <input id="textbox" type="number" value="0"><br>
-
-        </div>
-         <input type="radio" name="unit" id="fahrenheit">
-         <label for="fahrenheit">Celsius ➡ Fahrenheit</label><br>
-
-         <input type="radio" name="unit" id="celsius">
-         <label for="celsius">Fahrenheit ➡ Celsius</label><br>
-         <button type="submit" onclick="convert()">Convert</button><br>
-         <p id="result">Select a unit</p>   <!--Select a unit-->
-
-
-  <script src="script.js"></script>
-      </form>
+   <div id="container">
+      <h1>Dice Roller</h1>
+      <label for="numOfDice"># of dice:</label>
+      <input type="number" id="numOfDice" value="1" min="1" max="6"><br>
+      <button onclick="rollDice()">Roll Dice</button> 
+      <div id="diceResult"></div>
+      <div id="diceImg"></div>
    </div>
-
+   <script src="scriptdice.js"></script> 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dice Game</title>
+   <link rel="stylesheet" href="dice.css">
+   
+
+</head>
+<body>
+   
+    <div id="container">
+      <h1>Dice Roller</h1>
+      <label for=""># of dice:</label>
+      <input type="number" id="numOfDice" value="1" min="1" max="6"><br>
+      <button onclick="rollDice">Roll Dice</button> 
+       <div id="diceResult">
+
+       </div>
+       <div id="diceImg">
+
+       </div>
+    </div>
+   <script src="scriptdice.js"></script> 
+</body>
+</html>-->
